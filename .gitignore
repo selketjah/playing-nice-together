@@ -4,9 +4,6 @@ Paperwork
 packages
 .vs
 
-# files
-
-
 # OS or Editor folders
 .DS_Store
 ._*
@@ -20,3 +17,31 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
+
+# Paket
+Demo/.paket/paket.exe
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Roslyn cache directories
+*.ide/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
