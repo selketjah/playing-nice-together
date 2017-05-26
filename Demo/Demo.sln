@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "StarCasino.Core.Vb", "VbLib\StarCasino.Core.Vb.vbproj", "{EA379C00-64DC-4115-8DB9-5B3E2618EC7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarCasino.Core", "CSharpLib\StarCasino.Core.csproj", "{6BC870D9-7D0A-4BFC-8DE8-ECA4F0454D15}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "StarCasino.Core.Fsharp", "FSharpLib\StarCasino.Core.Fsharp.fsproj", "{9B7C17A6-C191-4E94-8412-16391024BA45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA379C00-64DC-4115-8DB9-5B3E2618EC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA379C00-64DC-4115-8DB9-5B3E2618EC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA379C00-64DC-4115-8DB9-5B3E2618EC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA379C00-64DC-4115-8DB9-5B3E2618EC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC870D9-7D0A-4BFC-8DE8-ECA4F0454D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC870D9-7D0A-4BFC-8DE8-ECA4F0454D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC870D9-7D0A-4BFC-8DE8-ECA4F0454D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC870D9-7D0A-4BFC-8DE8-ECA4F0454D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7C17A6-C191-4E94-8412-16391024BA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7C17A6-C191-4E94-8412-16391024BA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7C17A6-C191-4E94-8412-16391024BA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7C17A6-C191-4E94-8412-16391024BA45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
